@@ -1,9 +1,9 @@
 # Skill-Bridge Career Navigator
 
-Candidate Name: Srivishnu Gade
-Scenario Chosen: 2. Skill-Bridge Career Navigator
-Estimated Time Spent: 4.5 hours
-Video Presentation: https://vimeo.com/1175450813?share=copy&fl=sv&fe=ci
+#### Candidate Name: Srivishnu Gade
+#### Scenario Chosen: 2. Skill-Bridge Career Navigator
+#### Estimated Time Spent: 4.5 hours
+#### Video Presentation: https://vimeo.com/1175450813?share=copy&fl=sv&fe=ci
 
 ## Quick Start
 ### Prerequisites:
@@ -33,6 +33,39 @@ streamlit run app.py
 ```bash
 pytest tests/
 ```
+
+
+
+## Design Documentation
+
+### 1. Data Modeling (Graph vs. Relational)
+At the core of this project is a **Neo4j Graph Database**. We chose a graph structure over traditional SQL because career navigation is fundamentally a topological problem. Mapping academic prerequisites involves deep, multi-level traversing (e.g., finding the foundations of Machine Learning) which in SQL would require expensive, recursive Joins. Neo4j allows us to perform native **Transitive Traversal** with a single Cypher query.
+
+**Node Schema:**
+- **(Skill)**: The atomic unit of competence (contains `name`, `category`, `course_url`).
+- **(User)**: Represents an individual (identified by session ID).
+- **(Role)**: A job target (e.g., "Full Stack Developer").
+- **(Subject)**: An academic course (e.g., "Data Structures").
+
+**Relationship Schema:**
+- `(Skill)-[:HAS_PREREQUISITE]->(Skill)`: Forms the prerequisite roadmap.
+- `(User)-[:HAS_SKILL {rating, liked}]->(Skill)`: Tracks possession and confidence.
+- `(Role)-[:REQUIRES_SKILL]->(Skill)`: Maps market requirements.
+
+### 2. Core Data Flow
+1. **Extraction (PDF -> AI)**: Unstructured syllabi/resumes are parsed via `LLaMA 3` (Groq AI).
+2. **Normalization**: Extracted skills are normalized against a canonical Neo4j dictionary to prevent duplication and case-sensitivity bugs.
+3. **Graph Analysis**: Cypher queries calculate the difference set between a `Role`’s required skills and a `User`’s owned skills.
+4. **Interactive UI**: The gap is visualized through **PyVis Network Graphs** and actionable learning roadmaps.
+
+### 3. AI Strategy & Resilience
+- **LLM Selection**: We utilize `llama-3.1-8b` for speed and `llama-3.3-70b` for complex entity extraction.
+- **Fail-Safe Mechanism**: Every AI call is wrapped in a robust fallback layer. If the API key is missing or the JSON is malformed, the system returns a rule-based dictionary of standard tech skills, ensuring zero downtime for the user.
+
+## System Architecture & Tech Stack
+- **Graph Database**: Neo4j (Topological prerequisite mapping and native graph gap analysis).
+- **AI Integration**: Groq AI (LLaMA 3.1/3.3) for resume/syllabus/JD parsing and mock interviews.
+- **Frontend / UI**: Streamlit with interactive PyVis network graph visualizations.
 
 ## AI Disclosure
 - **Did you use an AI assistant (Copilot, ChatGPT, etc.)?** Yes
