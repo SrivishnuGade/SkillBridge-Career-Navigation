@@ -1,0 +1,852 @@
+{
+    "roles": [
+        {
+            "title": "Machine Learning Engineer",
+            "description": "Builds and deploys AI models"
+        },
+        {
+            "title": "Full Stack Developer",
+            "description": "Handles both frontend and backend development"
+        },
+        {
+            "title": "Data Scientist",
+            "description": "Analyzes complex datasets to drive decisions"
+        },
+        {
+            "title": "Cloud Architect",
+            "description": "Designs and manages scalable cloud infrastructure"
+        },
+        {
+            "title": "DevOps Engineer",
+            "description": "Bridges development and operations via CI/CD and automation"
+        },
+        {
+            "title": "Cybersecurity Analyst",
+            "description": "Protects systems and networks from threats"
+        },
+        {
+            "title": "Data Engineer",
+            "description": "Builds data pipelines and warehousing solutions"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Python",
+            "category": "Programming",
+            "course": "https://example.com/python"
+        },
+        {
+            "name": "JavaScript",
+            "category": "Programming",
+            "course": "https://www.coursera.org/search?query=JavaScript"
+        },
+        {
+            "name": "TypeScript",
+            "category": "Programming",
+            "course": "https://www.coursera.org/search?query=TypeScript"
+        },
+        {
+            "name": "Java",
+            "category": "Programming",
+            "course": "https://www.coursera.org/search?query=Java"
+        },
+        {
+            "name": "Go",
+            "category": "Programming",
+            "course": "https://www.coursera.org/search?query=Go"
+        },
+        {
+            "name": "Linear Algebra",
+            "category": "Math",
+            "course": "https://example.com/la"
+        },
+        {
+            "name": "Statistics",
+            "category": "Math",
+            "course": "https://example.com/stats"
+        },
+        {
+            "name": "Calculus",
+            "category": "Math",
+            "course": "https://www.coursera.org/search?query=Calculus"
+        },
+        {
+            "name": "Machine Learning",
+            "category": "AI",
+            "course": "https://example.com/ml"
+        },
+        {
+            "name": "Deep Learning",
+            "category": "AI",
+            "course": "https://example.com/dl"
+        },
+        {
+            "name": "Natural Language Processing",
+            "category": "AI",
+            "course": "https://www.coursera.org/search?query=Natural%20Language%20Processing"
+        },
+        {
+            "name": "Pandas",
+            "category": "Data",
+            "course": "https://www.coursera.org/search?query=Pandas"
+        },
+        {
+            "name": "Spark",
+            "category": "Data",
+            "course": "https://www.coursera.org/search?query=Spark"
+        },
+        {
+            "name": "React",
+            "category": "Frontend",
+            "course": "https://example.com/react"
+        },
+        {
+            "name": "Node.js",
+            "category": "Backend",
+            "course": "https://www.coursera.org/search?query=Node.js"
+        },
+        {
+            "name": "FastAPI",
+            "category": "Backend",
+            "course": "https://example.com/fastapi"
+        },
+        {
+            "name": "HTML/CSS",
+            "category": "Frontend",
+            "course": "https://www.coursera.org/search?query=HTML/CSS"
+        },
+        {
+            "name": "AWS",
+            "category": "Cloud",
+            "course": "https://example.com/aws"
+        },
+        {
+            "name": "Docker",
+            "category": "DevOps",
+            "course": "https://example.com/docker"
+        },
+        {
+            "name": "Kubernetes",
+            "category": "DevOps",
+            "course": "https://example.com/k8s"
+        },
+        {
+            "name": "CI/CD",
+            "category": "DevOps",
+            "course": "https://www.coursera.org/search?query=CI/CD"
+        },
+        {
+            "name": "Linux",
+            "category": "OS",
+            "course": "https://www.coursera.org/search?query=Linux"
+        },
+        {
+            "name": "SQL",
+            "category": "Database",
+            "course": "https://example.com/sql"
+        },
+        {
+            "name": "Neo4j",
+            "category": "Database",
+            "course": "https://www.coursera.org/search?query=Neo4j"
+        },
+        {
+            "name": "Network Security",
+            "category": "Security",
+            "course": "https://example.com/netsec"
+        },
+        {
+            "name": "Cryptography",
+            "category": "Security",
+            "course": "https://www.coursera.org/search?query=Cryptography"
+        },
+        {
+            "name": "Ethical Hacking",
+            "category": "Security",
+            "course": "https://www.coursera.org/search?query=Ethical%20Hacking"
+        },
+        {
+            "name": "C",
+            "category": "Programming",
+            "course": "https://www.coursera.org/search?query=C"
+        },
+        {
+            "name": "C++",
+            "category": "Programming",
+            "course": "https://www.coursera.org/search?query=C++"
+        },
+        {
+            "name": "C#",
+            "category": "Programming",
+            "course": "https://www.coursera.org/search?query=C#"
+        },
+        {
+            "name": "Jupyter",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=Jupyter"
+        },
+        {
+            "name": "IDLE",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=IDLE"
+        },
+        {
+            "name": "HackerRank",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=HackerRank"
+        },
+        {
+            "name": "Icarus Verilog",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=Icarus%20Verilog"
+        },
+        {
+            "name": "GTK Wave",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=GTK%20Wave"
+        },
+        {
+            "name": "GCC Compiler",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=GCC%20Compiler"
+        },
+        {
+            "name": "GDB Debugger",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=GDB%20Debugger"
+        },
+        {
+            "name": "Matplotlib",
+            "category": "Data",
+            "course": "https://www.coursera.org/search?query=Matplotlib"
+        },
+        {
+            "name": "Scipy",
+            "category": "Data",
+            "course": "https://www.coursera.org/search?query=Scipy"
+        },
+        {
+            "name": "Seaborn",
+            "category": "Data",
+            "course": "https://www.coursera.org/search?query=Seaborn"
+        },
+        {
+            "name": "BeautifulSoup",
+            "category": "Data",
+            "course": "https://www.coursera.org/search?query=BeautifulSoup"
+        },
+        {
+            "name": "Numpy",
+            "category": "Data",
+            "course": "https://www.coursera.org/search?query=Numpy"
+        },
+        {
+            "name": "Scikit learn",
+            "category": "Data",
+            "course": "https://www.coursera.org/search?query=Scikit%20learn"
+        },
+        {
+            "name": "MERN Technologies",
+            "category": "Frontend",
+            "course": "https://www.coursera.org/search?query=MERN%20Technologies"
+        },
+        {
+            "name": "JFLAP",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=JFLAP"
+        },
+        {
+            "name": "MySQL Workbench",
+            "category": "Database",
+            "course": "https://www.coursera.org/search?query=MySQL%20Workbench"
+        },
+        {
+            "name": "Pytorch",
+            "category": "AI",
+            "course": "https://www.coursera.org/search?query=Pytorch"
+        },
+        {
+            "name": "GitHub",
+            "category": "DevOps",
+            "course": "https://www.coursera.org/search?query=GitHub"
+        },
+        {
+            "name": "MS Project",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=MS%20Project"
+        },
+        {
+            "name": "Jira",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=Jira"
+        },
+        {
+            "name": "Jenkins",
+            "category": "DevOps",
+            "course": "https://www.coursera.org/search?query=Jenkins"
+        },
+        {
+            "name": "Star UML",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=Star%20UML"
+        },
+        {
+            "name": "Tensorflow",
+            "category": "AI",
+            "course": "https://www.coursera.org/search?query=Tensorflow"
+        },
+        {
+            "name": "Solr",
+            "category": "Data",
+            "course": "https://www.coursera.org/search?query=Solr"
+        },
+        {
+            "name": "Wireshark",
+            "category": "Security",
+            "course": "https://www.coursera.org/search?query=Wireshark"
+        },
+        {
+            "name": "Cisco Packet Tracker",
+            "category": "Security",
+            "course": "https://www.coursera.org/search?query=Cisco%20Packet%20Tracker"
+        },
+        {
+            "name": "Metasploit",
+            "category": "Security",
+            "course": "https://www.coursera.org/search?query=Metasploit"
+        },
+        {
+            "name": "Arduino IDE",
+            "category": "Tools",
+            "course": "https://www.coursera.org/search?query=Arduino%20IDE"
+        }
+    ],
+    "prerequisites": [
+        {
+            "skill": "Machine Learning",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Machine Learning",
+            "prereq": "Linear Algebra"
+        },
+        {
+            "skill": "Machine Learning",
+            "prereq": "Statistics"
+        },
+        {
+            "skill": "Deep Learning",
+            "prereq": "Machine Learning"
+        },
+        {
+            "skill": "Deep Learning",
+            "prereq": "Calculus"
+        },
+        {
+            "skill": "Natural Language Processing",
+            "prereq": "Deep Learning"
+        },
+        {
+            "skill": "React",
+            "prereq": "JavaScript"
+        },
+        {
+            "skill": "React",
+            "prereq": "HTML/CSS"
+        },
+        {
+            "skill": "Node.js",
+            "prereq": "JavaScript"
+        },
+        {
+            "skill": "TypeScript",
+            "prereq": "JavaScript"
+        },
+        {
+            "skill": "FastAPI",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Pandas",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Spark",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Spark",
+            "prereq": "SQL"
+        },
+        {
+            "skill": "Docker",
+            "prereq": "Linux"
+        },
+        {
+            "skill": "Kubernetes",
+            "prereq": "Docker"
+        },
+        {
+            "skill": "CI/CD",
+            "prereq": "Docker"
+        },
+        {
+            "skill": "Docker",
+            "prereq": "Cloud"
+        },
+        {
+            "skill": "Kubernetes",
+            "prereq": "Cloud"
+        },
+        {
+            "skill": "Machine Learning",
+            "prereq": "Ai"
+        },
+        {
+            "skill": "Machine Learning",
+            "prereq": "AI"
+        },
+        {
+            "skill": "Git",
+            "prereq": "Version Control"
+        },
+        {
+            "skill": "Jenkins",
+            "prereq": "Ci/Cd"
+        },
+        {
+            "skill": "Jenkins",
+            "prereq": "CI/CD"
+        },
+        {
+            "skill": "Jenkins",
+            "prereq": "Sdlc"
+        },
+        {
+            "skill": "Jenkins",
+            "prereq": "SDLC"
+        },
+        {
+            "skill": "Jenkins",
+            "prereq": "Devops"
+        },
+        {
+            "skill": "Jenkins",
+            "prereq": "DevOps"
+        },
+        {
+            "skill": "Ethical Hacking",
+            "prereq": "Network Security"
+        },
+        {
+            "skill": "Ethical Hacking",
+            "prereq": "Linux"
+        },
+        {
+            "skill": "Data Structures & Algorithms",
+            "prereq": "C"
+        },
+        {
+            "skill": "Data Structures & Algorithms",
+            "prereq": "C++"
+        },
+        {
+            "skill": "Data Structures & Algorithms",
+            "prereq": "Java"
+        },
+        {
+            "skill": "Compiler Design",
+            "prereq": "Data Structures & Algorithms"
+        },
+        {
+            "skill": "Operating Systems",
+            "prereq": "Data Structures & Algorithms"
+        },
+        {
+            "skill": "Operating Systems",
+            "prereq": "C"
+        },
+        {
+            "skill": "Computer Networks",
+            "prereq": "Operating Systems"
+        },
+        {
+            "skill": "Network Security",
+            "prereq": "Computer Networks"
+        },
+        {
+            "skill": "DBMS",
+            "prereq": "Data Structures & Algorithms"
+        },
+        {
+            "skill": "DBMS",
+            "prereq": "SQL"
+        },
+        {
+            "skill": "Cryptography",
+            "prereq": "Math"
+        },
+        {
+            "skill": "Cryptography",
+            "prereq": "Network Security"
+        },
+        {
+            "skill": "Jupyter Notebook",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Jupyter",
+            "prereq": "Python"
+        },
+        {
+            "skill": "IDLE",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Python IDE",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Matplotlib",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Numpy",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Scipy",
+            "prereq": "Numpy"
+        },
+        {
+            "skill": "Seaborn",
+            "prereq": "Matplotlib"
+        },
+        {
+            "skill": "Scikit learn",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Scikit Learn",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Pytorch",
+            "prereq": "Machine Learning"
+        },
+        {
+            "skill": "Pytorch",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Tensorflow",
+            "prereq": "Machine Learning"
+        },
+        {
+            "skill": "Tensorflow",
+            "prereq": "Python"
+        },
+        {
+            "skill": "BeautifulSoup",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Solr",
+            "prereq": "Java"
+        },
+        {
+            "skill": "C++",
+            "prereq": "C"
+        },
+        {
+            "skill": "GCC Compiler",
+            "prereq": "C"
+        },
+        {
+            "skill": "GDB Debugger",
+            "prereq": "C"
+        },
+        {
+            "skill": "Arduino IDE",
+            "prereq": "C++"
+        },
+        {
+            "skill": "Arduino Microcontroller",
+            "prereq": "Arduino IDE"
+        },
+        {
+            "skill": "Arduino",
+            "prereq": "C++"
+        },
+        {
+            "skill": "MERN Technologies",
+            "prereq": "JavaScript"
+        },
+        {
+            "skill": "MERN Technologies",
+            "prereq": "React"
+        },
+        {
+            "skill": "MERN Technologies",
+            "prereq": "Node.js"
+        },
+        {
+            "skill": "Jenkins",
+            "prereq": "CI/CD"
+        },
+        {
+            "skill": "Star UML",
+            "prereq": "Object-Oriented Design"
+        },
+        {
+            "skill": "Wireshark",
+            "prereq": "Network Security"
+        },
+        {
+            "skill": "Cisco Packet Tracker",
+            "prereq": "Network Security"
+        },
+        {
+            "skill": "Metasploit",
+            "prereq": "Ethical Hacking"
+        },
+        {
+            "skill": "Metasploit",
+            "prereq": "Network Security"
+        },
+        {
+            "skill": "MySQL Workbench",
+            "prereq": "SQL"
+        },
+        {
+            "skill": "MySQL",
+            "prereq": "SQL"
+        },
+        {
+            "skill": "OpenCV",
+            "prereq": "Python"
+        },
+        {
+            "skill": "Unity",
+            "prereq": "C#"
+        },
+        {
+            "skill": "Git",
+            "prereq": "Linux/Unix OS"
+        },
+        {
+            "skill": "GitHub",
+            "prereq": "Git"
+        },
+        {
+            "skill": "Solidity",
+            "prereq": "JavaScript"
+        },
+        {
+            "skill": "Remix",
+            "prereq": "Solidity"
+        },
+        {
+            "skill": "Lex/Flex",
+            "prereq": "C"
+        },
+        {
+            "skill": "Lex/flex",
+            "prereq": "C"
+        },
+        {
+            "skill": "YACC/Bison",
+            "prereq": "C"
+        },
+        {
+            "skill": "Linux/Unix OS",
+            "prereq": "C"
+        },
+        {
+            "skill": "Three.js",
+            "prereq": "JavaScript"
+        },
+        {
+            "skill": "Tkinter",
+            "prereq": "Python"
+        },
+        {
+            "skill": "HTML",
+            "prereq": "Web Technologies"
+        },
+        {
+            "skill": "CSS",
+            "prereq": "HTML"
+        },
+        {
+            "skill": "Embedded-C",
+            "prereq": "C"
+        },
+        {
+            "skill": "Single Board Computer",
+            "prereq": "Embedded-C"
+        },
+        {
+            "skill": "Cloud Platforms",
+            "prereq": "Linux/Unix OS"
+        },
+        {
+            "skill": "Amazon AWS",
+            "prereq": "Cloud Platforms"
+        },
+        {
+            "skill": "AWS",
+            "prereq": "Cloud Platforms"
+        },
+        {
+            "skill": "SEED labs",
+            "prereq": "Linux/Unix OS"
+        },
+        {
+            "skill": "OpenGL",
+            "prereq": "C++"
+        },
+        {
+            "skill": "CAD",
+            "prereq": "Geometry"
+        },
+        {
+            "skill": "Shapr3D",
+            "prereq": "CAD"
+        },
+        {
+            "skill": "CQL",
+            "prereq": "Database"
+        },
+        {
+            "skill": "GanttPro",
+            "prereq": "Project Management"
+        }
+    ],
+    "role_skills": [
+        {
+            "role": "Machine Learning Engineer",
+            "skill": "Python"
+        },
+        {
+            "role": "Machine Learning Engineer",
+            "skill": "Deep Learning"
+        },
+        {
+            "role": "Machine Learning Engineer",
+            "skill": "Natural Language Processing"
+        },
+        {
+            "role": "Machine Learning Engineer",
+            "skill": "SQL"
+        },
+        {
+            "role": "Full Stack Developer",
+            "skill": "JavaScript"
+        },
+        {
+            "role": "Full Stack Developer",
+            "skill": "TypeScript"
+        },
+        {
+            "role": "Full Stack Developer",
+            "skill": "React"
+        },
+        {
+            "role": "Full Stack Developer",
+            "skill": "Node.js"
+        },
+        {
+            "role": "Full Stack Developer",
+            "skill": "SQL"
+        },
+        {
+            "role": "Data Scientist",
+            "skill": "Python"
+        },
+        {
+            "role": "Data Scientist",
+            "skill": "Pandas"
+        },
+        {
+            "role": "Data Scientist",
+            "skill": "Machine Learning"
+        },
+        {
+            "role": "Data Scientist",
+            "skill": "SQL"
+        },
+        {
+            "role": "Data Scientist",
+            "skill": "Statistics"
+        },
+        {
+            "role": "Cloud Architect",
+            "skill": "AWS"
+        },
+        {
+            "role": "Cloud Architect",
+            "skill": "Linux"
+        },
+        {
+            "role": "Cloud Architect",
+            "skill": "Docker"
+        },
+        {
+            "role": "Cloud Architect",
+            "skill": "Kubernetes"
+        },
+        {
+            "role": "DevOps Engineer",
+            "skill": "Linux"
+        },
+        {
+            "role": "DevOps Engineer",
+            "skill": "Docker"
+        },
+        {
+            "role": "DevOps Engineer",
+            "skill": "Kubernetes"
+        },
+        {
+            "role": "DevOps Engineer",
+            "skill": "CI/CD"
+        },
+        {
+            "role": "DevOps Engineer",
+            "skill": "Python"
+        },
+        {
+            "role": "Cybersecurity Analyst",
+            "skill": "Network Security"
+        },
+        {
+            "role": "Cybersecurity Analyst",
+            "skill": "Linux"
+        },
+        {
+            "role": "Cybersecurity Analyst",
+            "skill": "Cryptography"
+        },
+        {
+            "role": "Cybersecurity Analyst",
+            "skill": "Ethical Hacking"
+        },
+        {
+            "role": "Data Engineer",
+            "skill": "Python"
+        },
+        {
+            "role": "Data Engineer",
+            "skill": "SQL"
+        },
+        {
+            "role": "Data Engineer",
+            "skill": "Spark"
+        },
+        {
+            "role": "Data Engineer",
+            "skill": "AWS"
+        }
+    ]
+}

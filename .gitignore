@@ -1,0 +1,24 @@
+# Environments
+venv/
+env/
+.venv/
+lib/
+bin/
+include/
+
+# Environment variables
+.env
+!.env.example
+
+# Caches and local data
+.pytest_cache/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Application generated data
+data/
+sample/
+
+# Mac specific
+.DS_Store
